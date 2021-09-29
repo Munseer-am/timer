@@ -19,7 +19,7 @@ def countdown(t):
 	print(' time up')
 	
 t = int(input(' Enter time in seconds: '))
-if t > 1000:
+if t > 1200:
 	sys.exit()
 else:
 	countdown(int(t))
