@@ -1,4 +1,7 @@
 #! bin/env python3
+
+"""This timer is limited to 20mins.You can extend time if want by changing the code."""
+
 import time
 import sys
 
