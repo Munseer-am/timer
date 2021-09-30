@@ -30,6 +30,7 @@ t = int(input(' Enter time in seconds: '))
 
 # time limit
 if t > 3600:
+        print(" Limit Exceeded")
 	sys.exit()
 else:
 	countdown(int(t)
