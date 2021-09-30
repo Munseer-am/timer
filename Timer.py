@@ -1,7 +1,7 @@
 #! bin/env python3
 
-"""This timer is limited to 60mins.You can extend time if want by changing the 25th line of code."""
 """This timer only supports seconds format."""
+__author__ = "Munseer"
 
 import time
 import sys
