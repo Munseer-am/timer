@@ -13,6 +13,7 @@ print("""  __  __
  | |\/| | | | | '_ \/ __|/ _ \/ _ \ '__|
  | |  | | |_| | | | \__ \  __/  __/ |
  |_|  |_|\__,_|_| |_|___/\___|\___|_|""")
+print("\n This script is created by Munseer")
 
 # codes for timer 
 def countdown(t):
