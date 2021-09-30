@@ -1,7 +1,8 @@
 #! bin/env python3
 
-"""This timer is limited to 20mins.You can extend time if want by changing the 25th line of code."""
+"""This timer is limited to 60mins.You can extend time if want by changing the 25th line of code."""
 """This timer only supports seconds format."""
+
 import time
 import sys
 
@@ -22,8 +23,8 @@ def countdown(t):
 	print(' time up')
 	
 t = int(input(' Enter time in seconds: '))
-if t > 1200:
+if t > 3600:
 	sys.exit()
 else:
-	countdown(int(t))
+	countdown(int(t)
 	
